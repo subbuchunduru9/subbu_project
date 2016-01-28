@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26057" started-at="2016-01-26T03:17:18Z" finished-at="2016-01-26T03:17:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26057" started-at="2016-01-26T03:17:18Z" finished-at="2016-01-26T03:17:44Z">
+      <class name="programs.testng_programs.Yahoo3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:programs.testng_programs.Yahoo3@8355dd]" name="setUp" is-config="true" duration-ms="10662" started-at="2016-01-25T22:17:18Z" finished-at="2016-01-25T22:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yahoo_test()[pri:0, instance:programs.testng_programs.Yahoo3@8355dd]" name="yahoo_test" duration-ms="14778" started-at="2016-01-25T22:17:28Z" finished-at="2016-01-25T22:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahoo_test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:programs.testng_programs.Yahoo3@8355dd]" name="afterTest" is-config="true" duration-ms="601" started-at="2016-01-25T22:17:43Z" finished-at="2016-01-25T22:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- programs.testng_programs.Yahoo3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
