@@ -3,7 +3,7 @@ package programs;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 import org.junit.*;
-
+#Subbu changed
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 import org.openqa.selenium.*;
@@ -45,7 +45,7 @@ public class Bestbuy {
     driver.manage().window().maximize();
     driver.findElement(By.id("zip")).sendKeys("07029");
     driver.findElement(By.id("city")).sendKeys("Harrison");
-    driver.findElement(By.id("state")).sendKeys("NJ – New Jersey");
+    driver.findElement(By.id("state")).sendKeys("NJ â€“ New Jersey");
     String testUrl1 = driver.getCurrentUrl();
 	   System.out.println(testUrl1);
 	   String x = driver.findElement(By.xpath(".//*[@id='search-section']/div[1]/h1")).getText();
